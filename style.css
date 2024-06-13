@@ -38,6 +38,13 @@ footer {
     margin: 1vw 1vw;
 }
 
+#scrambled-paragraph-container, 
+#instructions,
+#button-container {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
 #generate-button, 
 #save-button {
     font-size: large;
@@ -45,4 +52,6 @@ footer {
 
 footer {
     font-size: smaller;
+    margin-top: 1vh;
+    padding: 1vh;
 }
