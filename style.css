@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+#scrambled-paragraph {
+    height: fit-content;
+    margin: 1vw 30vw;
+    padding: 1vw;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+#title, 
+#instructions, 
+#paragraph-container, 
+#scrambled-paragraph-container, 
+#button-container, 
+footer {
+    text-align: center;
+}
+
+#title {
+    font-family: sans-serif;
+}
+
+#instructions {
+    color: grey;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 1vw;
+}
+
+#paragraph-input {
+    font-size: medium;
+    resize: none;
+    margin: 1vw 1vw;
+}
+
+#generate-button, 
+#save-button {
+    font-size: large;
+}
+
+footer {
+    font-size: smaller;
+    text-align: center;
+}

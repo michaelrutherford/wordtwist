@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Wordtwist</title>
+</head>
+<body>
+  <h1 id="title">Wordtwist</h1>
+  <h2 id="instructions">Input or paste a paragraph of text and press "Create" to generate scrambled poetry.</h2>
+
+  <div id="paragraph-container">
+    <textarea id="paragraph-input" name="paragraph" cols="50" rows="10" placeholder="Enter text">Choosing to change the order of the words in an existing text gives rise to scramble poetry. It changes the meaning of the text without adding new information.</textarea>
+  </div>
+
+  <div id="button-container">
+    <button id="generate-button" onclick="generateScrambledText()">Create</button>
+    <button id="save-button" onclick="saveAsTxt()">Save</button>
+  </div>
+  
+  <div id="scrambled-paragraph-container">
+    <p id="scrambled-paragraph"></p>
+  </div>
+
+  <script src="twist.js"></script>
+  <footer>© 2024 Michael Rutherford</footer>
+</body>
+</html>
