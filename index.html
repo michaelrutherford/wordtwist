@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
   <link rel="stylesheet" href="style.css">
   <title>Wordtwist</title>
 </head>
 <body>
   <h1 id="title">Wordtwist</h1>
-  <h2 id="instructions">Input or paste a paragraph of text and press "Create" to generate scrambled poetry.</h2>
-
+  <div id="instructions-container">
+    <h2 id="instructions">Each time you press "Create", a random scramble poem is generated.</h2>
+    <h2 id="instructions">You can use the sample text below or enter your own text.</h2>
+    <h2 id="instructions">Press "Save" to receive a copy of the poem as a .txt file.</h2>
+  </div>
   <div id="paragraph-container">
     <textarea id="paragraph-input" name="paragraph" cols="50" rows="10" placeholder="Enter text">Choosing to change the order of the words in an existing text gives rise to scramble poetry. It changes the meaning of the text without adding new information.</textarea>
   </div>
