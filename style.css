@@ -4,7 +4,7 @@ body {
 
 #scrambled-paragraph {
     height: fit-content;
-    margin: 1vh 30vw;
+    margin: 3vh 30vw;
     padding: 1vw;
     background-color: black;
     color: white;
@@ -38,7 +38,6 @@ footer {
     margin: 1vw 1vw;
 }
 
-#scrambled-paragraph-container, 
 #instructions,
 #button-container {
     margin-top: 1vh;
