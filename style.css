@@ -4,7 +4,7 @@ body {
 
 #scrambled-paragraph {
     height: fit-content;
-    margin: 1vw 30vw;
+    margin: 1vh 30vw;
     padding: 1vw;
     background-color: black;
     color: white;
@@ -29,7 +29,7 @@ footer {
     color: grey;
     font-style: italic;
     font-size: small;
-    margin-bottom: 1vw;
+    margin-bottom: 1vh;
 }
 
 #paragraph-input {
